@@ -1,4 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
+
 export default defineConfig({
-  outDir: './docs',
+  integrations: [tailwind()],
+  outDir: 'docs',
+  base: '/Brandon-Lightbody-Pf', // Update this to '/your-repo-name/' if deploying to GitHub Pages
 });

@@ -1,15 +1,19 @@
 {
-  "name": "astro-portfolio",
+  "name": "refined-portfolio",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
   },
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.10.1"
+  },
   "devDependencies": {
-    "astro": "^5.10.1",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0",
-    "tailwindcss": "^3.4.0"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
   }
 }
