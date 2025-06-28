@@ -2,7 +2,8 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  base: '/Brandon-Lightbody-Pf/',
+  output: "static",
   outDir: 'docs',
   integrations: [tailwind()],
+  base: '/Brandon-Lightbody-Pf/',
 });
